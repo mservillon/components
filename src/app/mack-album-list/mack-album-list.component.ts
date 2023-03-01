@@ -72,4 +72,15 @@ export class MackAlbumListComponent implements OnInit {
       .filter(x => x.checked).length
   }
 
+  clearList = () => {
+    this.albumsToBeDisplayed = this.albumsToBeDisplayed
+      .map(
+        x => ({
+          ...x
+          , checked: false
+        })
+      );
+    this.albumsListened = this.albumsToBeDisplayed
+      .filter(x => x.checked).length
+  }
 }
