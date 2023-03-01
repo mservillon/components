@@ -1,1 +1,19 @@
-<p>mack-album-list works!</p>
+<mat-card>
+    <mat-card-title>
+        Mack's Favorite Albums
+    </mat-card-title>
+    <mat-card-content>
+        <br>
+        <div
+            *ngFor="let albums of albumsToBeDisplayed"
+        >
+        <label>
+            <mat-checkbox
+                [(ngModel)]="albums.checked"
+                >
+                {{ albums.name }}
+            </mat-checkbox>
+        </label>
+        </div>
+    </mat-card-content>
+</mat-card>
