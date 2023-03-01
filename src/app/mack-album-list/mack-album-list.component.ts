@@ -58,4 +58,11 @@ export class MackAlbumListComponent implements OnInit {
     console.log(this.albumsToBeDisplayed);
   }
 
+get albumsListened() {
+  return this.albumsToBeDisplayed
+    .filter(
+      x => x.checked
+    ).length
+};
+
 }
