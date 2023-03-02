@@ -1,0 +1,25 @@
+<mat-card>
+    <mat-card-title>
+        Calculate speed in Km/hr
+    </mat-card-title>
+    <mat-form-field appearance="fill">
+        <mat-label>
+            Distance (Km)
+        </mat-label>
+        <input matInput [(ngModel)]="distance">
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+        <mat-label>
+            Time (Hours)
+        </mat-label>
+        <input matInput [(ngModel)]="time">
+    </mat-form-field>
+    <button 
+        mat-flat-button 
+        color="accent"
+        (click)="totalSpeed()"
+    >
+        Calculate Speed
+    </button>
+    {{ total }}km/hr
+</mat-card>
