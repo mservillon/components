@@ -12,11 +12,16 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MackAlbumListComponent } from './mack-album-list/mack-album-list.component';
 
+import { TjsMultiplicationComponent } from './tjs-multiplication/tjs-multiplication.component';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+
 @NgModule({
   declarations: [
     AppComponent,
     PizzaToppingsComponent,
-    MackAlbumListComponent
+    MackAlbumListComponent,
+    TjsMultiplicationComponent
   ],
   imports: [
     BrowserModule
@@ -25,6 +30,8 @@ import { MackAlbumListComponent } from './mack-album-list/mack-album-list.compon
     , MatCardModule
     , MatButtonModule
     , MatCheckboxModule
+    , MatFormFieldModule
+    , MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
