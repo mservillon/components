@@ -12,11 +12,9 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MackAlbumListComponent } from './mack-album-list/mack-album-list.component';
 import { SwTeamCheckComponent } from './sw-team-check/sw-team-check.component';
-import { MatInputModule } from '@angular/material/input';
-import { MatFormFieldModule } from '@angular/material/form-field';
-
-
 import { TjsMultiplicationComponent } from './tjs-multiplication/tjs-multiplication.component';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -25,7 +23,6 @@ import { TjsMultiplicationComponent } from './tjs-multiplication/tjs-multiplicat
     TjsMultiplicationComponent,
     SwTeamCheckComponent,
     MackAlbumListComponent
-
   ],
   imports: [
     BrowserModule
@@ -34,8 +31,8 @@ import { TjsMultiplicationComponent } from './tjs-multiplication/tjs-multiplicat
     , MatCardModule
     , MatButtonModule
     , MatCheckboxModule
-    , MatInputModule
     , MatFormFieldModule
+    , MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
