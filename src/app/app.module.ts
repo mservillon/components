@@ -23,8 +23,8 @@ import { TjsMultiplicationComponent } from './tjs-multiplication/tjs-multiplicat
     AppComponent,
     PizzaToppingsComponent,
     TjsMultiplicationComponent,
-    MackAlbumListComponent,
-    SwTeamCheckComponent
+    SwTeamCheckComponent,
+    MackAlbumListComponent
 
   ],
   imports: [
