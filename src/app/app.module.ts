@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { PizzaToppingsComponent } from './pizza-toppings/pizza-toppings.component';
+import { SpeedComponent } from './speed/speed.component';
 
 import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -10,6 +11,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatRadioModule } from '@angular/material/radio';
 import { MackAlbumListComponent } from './mack-album-list/mack-album-list.component';
 import { SwTeamCheckComponent } from './sw-team-check/sw-team-check.component';
 import { TjsMultiplicationComponent } from './tjs-multiplication/tjs-multiplication.component';
@@ -20,6 +22,7 @@ import { MatInputModule } from '@angular/material/input';
   declarations: [
     AppComponent,
     PizzaToppingsComponent,
+    SpeedComponent,
     TjsMultiplicationComponent,
     SwTeamCheckComponent,
     MackAlbumListComponent
@@ -31,6 +34,7 @@ import { MatInputModule } from '@angular/material/input';
     , MatCardModule
     , MatButtonModule
     , MatCheckboxModule
+    , MatRadioModule
     , MatFormFieldModule
     , MatInputModule
   ],
